@@ -1,33 +1,41 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { Dino } from "../types.ts";
+import { Game } from "../types.ts";
+import { useTranslation } from "react-i18next";
 
 export default function Index() {
-  const [dinosaurs, setDinosaurs] = useState<Dino[]>([]);
+  const [videogames, setVideoGame] = useState<Game[]>([]);
+  const { t } = useTranslation(); // hook para obtener las traducciones
 
   useEffect(() => {
     (async () => {
-      const response = await fetch(`/api/dinosaurs/`);
-      const allDinosaurs = (await response.json()) as Dino[];
-      setDinosaurs(allDinosaurs);
+      const response = await fetch(`/api/videogames/`);
+      const allVideoGames = (await response.json()) as Game[];
+
+      const sortedGames = allVideoGames.sort((a, b) =>
+        a.name.localeCompare(b.name)
+      );
+      setVideoGame(sortedGames);
     })();
   }, []);
 
   return (
     <main>
-      <h1>Welcome to the Dinosaur app</h1>
-      <p>Click on a dinosaur below to learn more.</p>
-      {dinosaurs.map((dinosaur: Dino) => {
-        return (
-          <Link
-            to={`/${dinosaur.name.toLowerCase()}`}
-            key={dinosaur.name}
-            className="dinosaur"
-          >
-            {dinosaur.name}
-          </Link>
-        );
-      })}
+      <h1>{t("title")}</h1>
+      <p>{t("click_on_videogame")}</p>
+      <div className="videogame-list">
+        {videogames.map((videogame: Game) => {
+          return (
+            <Link
+              to={`/${videogame.name.toLowerCase()}`}
+              key={videogame.name}
+              className="videogame"
+            >
+              {videogame.name}
+            </Link>
+          );
+        })}
+      </div>
     </main>
   );
 }

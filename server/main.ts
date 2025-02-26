@@ -2,25 +2,25 @@ import { Application } from "jsr:@oak/oak/application";
 import { Router } from "jsr:@oak/oak/router";
 import { oakCors } from "@tajpouria/cors";
 import routeStaticFilesFrom from "./util/routeStaticFilesFrom.ts";
-import data from "./api/data.json" with { type: "json" };
+import data from "./api/data.json" with { type: "json" }; //import data from "./api/data_2.json" with { type: "json" };
 
 export const app = new Application();
 const router = new Router();
 
-router.get("/api/dinosaurs", (context) => {
+router.get("/api/videogames", (context) => { //"/api/videogames"
   context.response.body = data;
 });
 
-router.get("/api/dinosaurs/:dinosaur", (context) => {
-  if (!context?.params?.dinosaur) {
-    context.response.body = "No dinosaur name provided.";
+router.get("/api/videogames/:videogame", (context) => { //"/api/videogames/:videogame"
+  if (!context?.params?.videogame) { // .videogame
+    context.response.body = "No videogame name provided.";
   }
 
-  const dinosaur = data.find((item) =>
-    item.name.toLowerCase() === context.params.dinosaur.toLowerCase()
+  const videogame = data.find((item) =>
+    item.name.toLowerCase() === context.params.videogame.toLowerCase()
   );
 
-  context.response.body = dinosaur ?? "No dinosaur found.";
+  context.response.body = videogame ?? "No videogame found.";
 });
 
 

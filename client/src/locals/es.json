@@ -1,0 +1,112 @@
+{
+  "title": "Mi Lista de Juegos de PS.",
+  "click_on_videogame": "Haz clic en un juego a continuación para saber más",
+  "back": "Regresar a la lista",
+  "videogames": {
+    "Transformers Fall of Cybertron": {
+      "description": "Mi primer platino. Practiqué mi inglés al jugar multijugador. Buen juego, ¡QUE SALGA LA VERSION REMASTERIZADA!"
+    },
+    "Sherlock Holmes Crimes and Punishments": {
+      "description": "Era un regalo para mi Papa pero ni paso el primer caso."
+    },
+    "Call of Duty Black Ops 2": {
+      "description": "Buenos tiempos con mi hermano en multijugador online, malos tiempos con mi hermana cuando usaba la internet. Buena historia y secretos, predijo cómo seria el 2025 O.M.G."
+    },
+    "Destiny": {
+      "description": "Buenos tiempos, termine dos asaltos yo solo (modo de juego de 3 vs IA)."
+    },
+    "GTA V": {
+      "description": "Buenos y malos momentos en el modo Online, locuras y 'crews', muy toxico."
+    },
+    "Need for Speed Rivals": {
+      "description": "Conducir sin parar, me enamore del Ferrari F12 Berlinetta."
+    },
+    "GTA IV": {
+      "description": "Estuvo bueno, el online no mucho, muchos secretros que pase por alto."
+    },
+    "Uncharted 1 Drake's Fortune": {
+      "description": "Buen juego, me dio miedo la parte de los demonios en un bunker nazi abandonado y yo solito."
+    },
+    "Uncharted 2 Among Thieves": {
+      "description": "Buen juego, muchos secretos, llegue al jefe final en la máxima dificultad... Puto Lazarevic."
+    },
+    "God of War Collection (1 y 2)": {
+      "description": "Buenos juegos, violencia y sangre a la orden, aún me acuerdo de los combos... Putos Zeus y Ares."
+    },
+    "Call of Duty Ghosts": {
+      "description": "Infravalorado, buenas partidas online con mi hermano, hasta el punto en que eramos solo 2 vs 6 u 8, ganamos al final."
+    },
+    "Street Fighter 4": {
+      "description": "Puto jefe final, usaba todos los combos de todos los personajes, y ademas en modo facil con Zangief."
+    },
+    "Call of Duty Advance Warfare": {
+      "description": "Lo mismo que los anteriores pero más futurista, más frenético, doble salto, etc."
+    },
+    "Assassin's Creed III": {
+      "description": "Con este juego aprendí sobre la historia de la independencia de los Estados Unidos de América... más o menos."
+    },
+    "The Last of Us": {
+      "description": "Esto es Cine. Excelente trama, suspenso, terror, momentos buenos y tristes, todo. No me sorprende que hayan hecho una serie de este juego."
+    },
+    "Minecraft": {
+      "description": "Lo jugué un poco en Ps3 y más en PC, pero lo dejé después de unos meses."
+    },
+    "God of War III": {
+      "description": "¡Zeus!, ¡tu hijo ha regresado y trae consigo la destrucción del Olimpo!"
+    },
+    "Call of Duty Black Ops": {
+      "description": "Gran pieza del juego, excepto que se atasca o tiene errores en cierta cinemática."
+    },
+    "Resistance 3": {
+      "description": "Ya lo jugué dos veces, no me canso de jugarlo, ahora estoy a punto de conseguir el platino."
+    },
+    "Battlefield Hardline": {
+      "description": "Juego de policías y ladrones, trama estilo ochentero... pero es lo mismo que otros juegos de guerra FPS, disparar a los malos."
+    },
+    "DOOM Eternal": {
+      "description": "El juego más cristiano/católico que podría haber existido, padre del FPS. Es una película de monstruos donde TÚ eres el monstruo, 10/10."
+    },
+    "Batman Arkham Asylum": {
+      "description": "Le cambia la cara a los juegos de superhéroes, 10/10, GOTY. Un manual sobre cómo crear y desarrollar un buen juego de superhéroes."
+    },
+    "Batman Arkham City": {
+      "description": "Una ciudad-prisión llena de criminales y psicópatas que provocan el caos en cada rincón... sólo otra noche más para Batman."
+    },
+    "Batman Arkham Knight": {
+      "description": "Lo que debería haber sido el ÚLTIMO juego de la trilogía de Arkham, el toque final... pero luego vino Suicide Squad: Kill The Justice League y Rocksteady la cagó a lo grande."
+    },
+    "Uncharted 3 Drake's Deception": {
+      "description": "Más secretos, otra ciudad perdida, más sobre el pasado del protagonista y... un engaño."
+    },
+    "Uncharted 4 A Thief's End": {
+      "description": "Un final perfecto para una saga perfecta y para su personaje principal."
+    },
+    "Days Gone": {
+      "description": "Buen juego pero con algunas partes incompletas en uno de sus entornos, este mundo post-apocalíptico viene a por ti."
+    },
+    "Red Dead Redemption 2": {
+      "description": "Excelente juego, drama, tiroteos, tensiones, vaqueros, engaños, giros argumentales... me dan ganas de volver a jugarlo."
+    },
+    "Horizon Zero Dawn": {
+      "description": "Uno de los primeros juegos para Play Station 4, buenos gráficos, buena creatividad y ambiente."
+    },
+    "Call of Duty Black Ops Cold War": {
+      "description": "La historia sucede entre Black Ops 1 y Black Ops 2, secretos, espías, más de un final (depende de las decisiones del jugador)."
+    },
+    "Call of Duty Black Ops III": {
+      "description": "Sólo es bueno para el frenético modo multijugador online y zombies, pero la campaña... 5/10."
+    },
+    "Call of Duty Modern Warfare (2019)": {
+      "description": "Un excelente juego para reiniciar la saga, con detalles realistas y una historia que te sacará de la silla."
+    },
+    "Call of Duty Modern Warfare 2 Remastered": {
+      "description": "El juego que causó controversia por solo una misión, pero recuerda... No es ruso."
+    },
+    "God of War 2018": {
+      "description": "10/10, GOTY, buena banda sonora, buena historia y momentos de nostalgia BOY!"
+    },
+    "Just Cause 3": {
+      "description": "Un juego sobre explosiones, derrocar a un dictador, explosiones y... explosiones."
+    }
+  }
+}

@@ -66,3 +66,25 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+.videogame-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 🔹 3 columnas de tamaño igual */
+  gap: 16px; /* Espacio entre columnas y filas */
+  padding: 20px;
+}
+
+.videogame {
+  display: block;
+  background-color: #f5f5f5; /* Color de fondo */
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out;
+}
+
+.videogame:hover {
+  background-color: #ddd;
+}
