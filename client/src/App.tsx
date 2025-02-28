@@ -17,8 +17,7 @@ function App() {
       </div>
       <Routes>
         <Route path="/" element={<Index />} />
-        <Route path="/:selectedVideoGame" element={<VideoGame />} /> // cambiar
-        "selectDinosaur" por "selectGame"
+        <Route path="/:selectedVideoGame" element={<VideoGame />} />
       </Routes>
     </BrowserRouter>
   );
