@@ -66,6 +66,7 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
 .videogame-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 🔹 3 columnas de tamaño igual */
