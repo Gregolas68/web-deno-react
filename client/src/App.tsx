@@ -12,8 +12,8 @@ function App() {
   return (
     <BrowserRouter>
       <div>
-        <button onClick={() => i18n.changeLanguage("en")}>🇬🇧 English</button>
-        <button onClick={() => i18n.changeLanguage("es")}>🇪🇸 Español</button>
+        <button onClick={() => i18n.changeLanguage("en")}> English</button>
+        <button onClick={() => i18n.changeLanguage("es")}> Español</button>
       </div>
       <Routes>
         <Route path="/" element={<Index />} />
