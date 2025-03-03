@@ -22,7 +22,7 @@ export default function VideoGame() {
       <Link to="/">🠠 {t("back")}</Link>
       <h1>{videogame.name}</h1>
       <img
-        src={`/images/${videogame.name.toLowerCase()}.jpg`}
+        src={`/images/${videogame.name}.jpg`}
         alt={videogame.name}
         width="300"
       />
