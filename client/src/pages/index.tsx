@@ -20,22 +20,27 @@ export default function Index() {
   }, []);
 
   return (
-    <main>
-      <h1>{t("title")}</h1>
-      <p>{t("click_on_videogame")}</p>
-      <div className="videogame-list">
-        {videogames.map((videogame: Game) => {
-          return (
-            <Link
-              to={`/${videogame.name.toLowerCase()}`}
-              key={videogame.name}
-              className="videogame"
-            >
-              {videogame.name}
-            </Link>
-          );
-        })}
-      </div>
-    </main>
+    <>
+      <main>
+        <h1>{t("title")}</h1>
+        <p>{t("click_on_videogame")}</p>
+        <div className="videogame-list">
+          {videogames.map((videogame: Game) => {
+            return (
+              <Link
+                to={`/${videogame.name.toLowerCase()}`}
+                key={videogame.name}
+                className="videogame"
+              >
+                {videogame.name}
+              </Link>
+            );
+          })}
+        </div>
+      </main>
+      <footer>
+        <p>{t("footer")}</p>
+      </footer>
+    </>
   );
 }

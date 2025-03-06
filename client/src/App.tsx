@@ -1,4 +1,3 @@
-// deno-lint-ignore-file
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import Index from "./pages/index.tsx";
@@ -12,8 +11,14 @@ function App() {
   return (
     <BrowserRouter>
       <div>
-        <button onClick={() => i18n.changeLanguage("en")}> English</button>
-        <button onClick={() => i18n.changeLanguage("es")}> Español</button>
+        <button type="button" onClick={() => i18n.changeLanguage("en")}>
+          {" "}
+          English
+        </button>
+        <button type="button" onClick={() => i18n.changeLanguage("es")}>
+          {" "}
+          Español
+        </button>
       </div>
       <Routes>
         <Route path="/" element={<Index />} />
