@@ -32,6 +32,12 @@ export default function Index() {
                 key={videogame.name}
                 className="videogame"
               >
+                <img
+                  src={`/images/${videogame.name}.jpg`}
+                  alt={videogame.name}
+                  width="200"
+                />
+                <br></br>
                 {videogame.name}
               </Link>
             );
